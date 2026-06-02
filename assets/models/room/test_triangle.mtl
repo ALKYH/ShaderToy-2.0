@@ -1,3 +1,5 @@
 newmtl triangle_material
 # 使用用户提供的漫反射贴图（请把文件放到同目录下：assets/models/room/test_triangle_albedo.png）
 map_Kd test_triangle_albedo.png
+# 记录法线贴图（当前着色器未自动使用，供后续法线映射启用时读取）
+map_Bump test_triangle_normal.png
