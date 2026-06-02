@@ -1,2 +1,3 @@
 newmtl triangle_material
-map_Kd test_rgba.ppm
+# 使用用户提供的漫反射贴图（请把文件放到同目录下：assets/models/room/test_triangle_albedo.png）
+map_Kd test_triangle_albedo.png
